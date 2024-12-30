@@ -1,0 +1,104 @@
+.nit-image{
+    object-fit: cover;
+    margin-left: 20px;
+  }
+
+
+
+  
+  /* General styling for the alumni services section */
+  .alumniServices {
+    background-color: #3aafa9;
+    height: auto;
+    width: 100%;
+    padding: 50px 10%;
+    box-sizing: border-box;
+  }
+
+  /* Styling for the heading */
+  .alumniHeading {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    
+  }
+
+  /* Styling for the paragraph */
+  .alumniText {
+    padding-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.6;
+    
+  }
+
+  /* Media query for smaller screens (e.g., tablets) */
+  @media (max-width: 768px) {
+    .alumniServices {
+      padding: 40px 5%;
+    }
+
+    .alumniHeading {
+      font-size: 1.8rem;
+    }
+
+    .alumniText {
+      font-size: 1.1rem;
+      padding-bottom: 30px;
+    }
+  }
+
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .alumniServices {
+      padding: 30px 3%;
+    }
+
+    .alumniHeading {
+      font-size: 1.5rem;
+    }
+
+    .alumniText {
+      font-size: 1rem;
+      padding-bottom: 20px;
+    }
+  }
+
+
+.box-1:hover{
+  cursor: pointer;
+}
+
+
+.box-2:hover{
+  cursor: pointer;
+}
+
+.D-1{
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+/* For smaller screens, stack D-1 items horizontally */
+@media (max-width: 768px) {
+  .D-container {
+    flex-direction: column; /* Stacks items vertically */
+  }
+  .D-1 {
+    flex-direction: column; /* Stack the icon and the text vertically */
+    align-items: center;
+  }
+  .mike {
+    margin: 5px; /* Adjust the margin for smaller screens */
+    width: 80px; /* Adjust the size for smaller screens */
+    height: 80px;
+    font-size: 1.5rem;
+  }
+  .h{
+    margin: 4px;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+}
+
+ .mike:hover{
+cursor: pointer;
+}
